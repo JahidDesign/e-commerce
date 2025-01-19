@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav-section{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cardId, #cardId2{
+    display: none;
+}
+.brand-logo{
+    width: 320px;
+    height: 80px;
+}
+.nav-items-ul{
+    margin-right:20px;
+    list-style: none;
+     display: flex;
+    
+}
+.nav-items-list{
+    margin: 0px 10px;
+}
+.nav-itmes-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0;
+
+}
+#custom{
+    font-size: 30px;
+    margin: 0px 5px;
+}
+.nav-section-menu{
+   
+}
+.main-container-section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.main-heading{
+    width: 582px;
+    font-size: 52px;
+    font-weight: 700;
+    list-style: 75px;
+    text-align: left;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+}
+#containWrite{
+    margin-top: 2%;
+    width: 582px;
+
+}
+.main-section-bio{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0;
+}
+.main-image-section{
+   
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+#sectionId{
+    
+}
+.custom-btn{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding:5px;
+    width: 190px;
+    height: 60px;
+}
+.brand-srction{
+    margin-top:10% ;
+}
+.brand-sp-section{
+    margin-top: 20%;
+    margin: auto;
+    width: 1200px;
+    height: 200px;
+    
+}
+.main-span{
+    width: 1200px;
+    height: 2px;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+}
+.sponsu-section{
+    margin: auto;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.spon-Img{
+    width:100px;
+    height: 45px;
+}
+/*Here is product section style*/
+
+.product-section{
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.product-heading{
+width: 260px;
+height: 70px;
+margin: auto;
+ font-family: Poppins;
+ font-size: 30px;
+ font-weight: 600;
+ color: black;
+ line-height: 70px;
+ letter-spacing: 0;
+}
+.product-sub-section{
+    margin-top: 2%;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.product-card{
+border-radius: 4px;
+ width: 330px;
+ height: 475px;
+ border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+}
+.product-img{
+    margin-left:20px;
+    margin-top: 10px;
+    width: 280px;
+    height: 220px;
+}
+.product-name{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    text-align: left;
+    margin-left: 15px;
+
+}
+.product-name{
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(24, 25, 31);
+    line-height: 12px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.product-price{
+    font-size: 24px;
+    margin-left:15px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+    line-height: 10px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.product-bio{
+margin-left: 15px;
+color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0;
+width: 200px;
+text-align: left;
+}
+.product-review{
+    width: 300px;
+    margin-left: 15px;
+}
+
+#iconRe{
+    font-size: 16px;
+    color: rgb(251, 130, 0);
+}
+.section-btn-div{
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+}
+.btn{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding:5px;
+    width: 120px;
+    height: 40px;
+}
+.product-see{
+    float: right;
+    margin-right: 35px;
+}
+.next-bio{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0px;
+color: rgba(224, 44, 109, 0.87);
+text-align: left;
+}
+.featured-section{
+    width: 1200px;
+    margin: auto;
+    margin-top: 10%;
+}
+.sub-featured{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.body-featured{
+    width: 450px;
+    height: 400px;
+}
+.body-featured-two{
+    width: 750px;
+    height: 400px;
+}
+.featuredImg{
+    margin: auto;
+    width: 404px;
+    height: 270px;
+}
+.featured-heading{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.featured-bio{
+    width: 500px;
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.card-featured{
+    width: 620px;
+    height: 245px;
+}
+.join-btn{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding:5px;
+    width: 120px;
+    height: 40px;
+}
+.footer-section{
+    width: 1510px;
+    background: rgb(26, 16, 65);
+}
+.div-gap{
+    width: 100%;
+    height: 50px;
+}
+.footer-dive{
+    margin-top:20px;
+    width: 400px;
+    height: 200px;
+    margin-left: 35%;  
+}
+.footer-heading{
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.footer-bio{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.reciver{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.iconf{
+    text-align: center; 
+    color:rgb(246, 243, 243);
+    background-color: rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+.f-icon{
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.f-section-d{
+    width: 100%;
+    height: 300px;
+}
+.bars{
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 25, 31);
+}
+
+@media only screen and (max-width:320px){
+    .nav-section{
+        margin: 0px;
+        padding: 0px;
+        width: 300px;
+        display: grid;
+        grid-template-columns: repeat(1,1f);
+    }
+   .nav-section-logo{
+    width: 280px;
+   }
+   .nav-section-menu{
+    width: 280px;
+   }
+   .nav-items-ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1f);
+    
+}
+#cardId{
+    margin-left: 90%;
+    margin-top: -19%;
+   display: block;
+}
+#cardId2{
+    margin-top: -10%;
+   display: block;
+}
+#cardSub{
+    display: none;
+}
+.nav-items-ul{
+    display: none;
+}
+.main-container-section{
+    flex-direction: column-reverse;
+}
+
+.section-container{
+   margin-top: 2px;
+   width: 300px;
+   height: 200px;
+    
+}
+.main-heading{
+    width: 281px;
+    font-size: 25px;
+    font-weight: 700;
+    list-style: 37.5px;
+    text-align: center;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+}
+.main-section-bio{
+    width: 290px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    line-height: 20px;
+    text-align: left;
+    letter-spacing: 0;
+    margin-left: 5px;
+}
+.main-image-section{
+    width: 280px;
+    height: 280px;
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    margin-left: 5px;
+}
+#sectionId{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+#containWrite{
+    margin: auto;
+    width: 300px;
+    
+}
+.custom-btn{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding:5px;
+    width: 120px;
+    height: 40px;
+}
+.brand-sp-section{
+    position: relative;
+    margin-top: 2px;
+    width: 300px;
+    height: 220px;
+    
+}
+.main-span{
+    width: 300px;
+    height: 2px;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+}
+.sponsu-section{
+    position: relative;
+    width: 300px;
+    height: 220px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.spon-Img{
+    width:50px;
+    height: 25px;
+}
+.product-section{
+    margin-top: 20%;
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.product-sub-section{
+    margin-top: 2%;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(1,1f);
+}
+
+.product-heading{
+width: 260px;
+height: 70px;
+margin: auto;
+ font-family: Poppins;
+ font-size: 30px;
+ font-weight: 600;
+ color: black;
+ line-height: 70px;
+ letter-spacing: 0;
+}
+
+.product-card{
+border-radius: 4px;
+ width: 290px;
+ height: 420px;
+ border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+.product-img{
+    margin-left:20px;
+    margin-top: 10px;
+    width: 260px;
+    height: 150px;
+}
+.product-name{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+.product-price{
+    font-size: 22px;
+    margin-left:15px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+    line-height: 10px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.product-bio{
+margin-left: 15px;
+color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0;
+width: 200px;
+text-align: left;
+}
+.product-review{
+    width: 300px;
+    margin-left: 15px;
+}
+
+.btn{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding:5px;
+    width: 100px;
+    height: 40px;
+}
+
+.featured-section{
+    width: 300px;
+    height:400px;
+    position: relative;
+}
+.sub-featured{
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(1,1f);
+  
+}
+.body-featured{
+    width: 280px;
+    height: 160px;
+}
+.body-featured-two{
+    width: 300px;
+    height: 160px;
+}
+.featuredImg{
+    width: 280px;
+    height: 150px;
+}
+.featured-heading{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.featured-bio{
+    width: 280px;
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.card-featured{
+    width: 280px;
+    height: 120px;
+}
+.join-btn{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding:5px;
+    width: 100px;
+    height: 35px;
+}
+.footer-section{
+    width: 300px;
+    height:160px;
+    background: rgb(26, 16, 65);
+    justify-items: left;
+}
+.div-gap{
+    height: 10px;
+}
+.footer-dive{
+    width: 300px;
+    height: 150px;
+    margin-left:-5%;
+}
+.footer-heading{
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.footer-bio{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.reciver{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.iconf{
+    text-align: center; 
+    color:rgb(246, 243, 243);
+    background-color: rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+.f-icon{
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.f-section-d{
+    width: 300px;
+    height: 150px;
+}
+.bars{
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 25, 31);
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+}
+
+
+@media only screen and (min-width:769px){
+
+}
