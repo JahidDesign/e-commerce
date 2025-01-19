@@ -434,7 +434,7 @@ text-align: left;
 #containWrite{
     margin: auto;
     width: 300px;
-    width:200px;
+    width:300px;
     
 }
 .custom-btn{
@@ -598,7 +598,7 @@ text-align: left;
     width: 300px;
     color: rgb(108, 108, 108);
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0px;
