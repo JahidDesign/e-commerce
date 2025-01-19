@@ -697,6 +697,338 @@ text-align: left;
 
 
 @media only screen and (min-width:321px) and (max-width:768px){
+    .nav-section{
+        margin: 0px;
+        padding: 0px;
+        width: 760px;
+        display: grid;
+        grid-template-columns: repeat(1,1f);
+    }
+   .nav-section-logo{
+    width: 760px;
+   }
+   .nav-section-menu{
+    width: 7600px;
+   }
+   .nav-items-ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1,1f);
+    
+}
+#cardId{
+    margin-left: 90%;
+    margin-top: -19%;
+   display: block;
+}
+#cardId2{
+    margin-top: -10%;
+   display: block;
+}
+#cardSub{
+    display: none;
+}
+.nav-items-ul{
+    display: none;
+}
+.main-container-section{
+    flex-direction: column-reverse;
+}
+
+.section-container{
+   margin-top: 2px;
+   width: 760px;
+   height: 200px;
+    
+}
+.main-heading{
+    width: 760px;
+    font-size: 35px;
+    font-weight: 700;
+    list-style: 40px;
+    text-align: center;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+}
+.main-section-bio{
+    width: 760px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: rgb(58, 58, 58);
+    line-height: 30px;
+    text-align: left;
+    letter-spacing: 0;
+    margin-left: 5px;
+}
+.main-image-section{
+    width: 450px;
+    height: 350px;
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    margin-left: 5px;
+}
+#sectionId{ 
+    width: 760px;
+    height: 400px;
+}
+#containWrite{
+    width: 760px;
+    width:450px;
+}
+.custom-btn{
+    font-size: 12px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding:5px;
+    width: 120px;
+    height: 45px;
+}
+.brand-sp-section{
+    position: relative;
+    margin-top: 2px;
+    width: 760px;
+    height: 300px;
+    
+}
+.gapTop{
+ display: block;
+ height: 50px;
+}
+.main-span{
+    position: relative;
+    width: 760px;
+    height: 2px;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+}
+.sponsu-section{
+    position: relative;
+    width: 760px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+.spon-Img{
+    width:80px;
+    height: 40px;
+}
+.product-section{
+    margin-top: 20%;
+    position: relative;
+    width: 760px;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.product-sub-section{
+    margin-top: 2%;
+    width: 760px;
+    display: grid;
+    grid-template-columns: repeat(1,1f);
+}
+
+.product-heading{
+width: 750px;
+height: 70px;
+margin: auto;
+ font-family: Poppins;
+ font-size: 35px;
+ font-weight: 600;
+ color: black;
+ line-height: 70px;
+ letter-spacing: 0;
+}
+
+.product-card{
+border-radius: 4px;
+ width: 370px;
+ height: 500px;
+ border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+.product-img{
+    margin-left:20px;
+    margin-top: 10px;
+    width: 350px;
+    height: 200px;
+}
+.product-name{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(24, 25, 31);
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+.product-price{
+    font-size: 22px;
+    margin-left:15px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+    line-height: 10px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.product-bio{
+margin-left: 15px;
+color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0;
+width: 350px;
+text-align: left;
+}
+.product-review{
+    width: 350px;
+    margin-left: 15px;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding:5px;
+    width: 160px;
+    height: 76px;
+}
+
+.featured-section{
+    width: 760px;
+    height:500px;
+    position: relative;
+}
+.sub-featured{
+    width: 760px;
+    display: grid;
+    grid-template-columns: repeat(1,1f);
+  
+}
+.body-featured{
+    width: 760px;
+    height: 200px;
+}
+.body-featured-two{
+    width: 760px;
+    height: 300px;
+}
+.featuredImg{
+    width: 400px;
+    height: 200px;
+}
+.featured-heading{
+    color: rgb(10, 8, 38);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.featured-bio{
+    width: 760px;
+    color: rgb(108, 108, 108);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.card-featured{
+    width: 760px;
+    height: 150px;
+}
+.join-btn{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding:5px;
+    width: 120px;
+    height: 45px;
+    margin-left: 10px;
+}
+.footer-section{
+    position: relative;
+    width: 760px;
+    height:200px;
+    background: rgb(26, 16, 65);
+    justify-items: left;
+}
+.div-gap{
+    height: 10px;
+}
+.footer-dive{
+    width: 760px;
+    height: 190px;
+    margin-left:-5%;
+}
+.footer-heading{
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.footer-bio{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.reciver{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.iconf{
+    text-align: center; 
+    color:rgb(246, 243, 243);
+    background-color: rgb(108, 108, 108);
+    border-radius: 5px;
+}
+
+.f-icon{
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.f-section-d{
+    width: 760px;
+    height: 150px;
+}
+.bars{
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 25, 31);
+}
+
 
 }
 
