@@ -589,23 +589,23 @@ text-align: left;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 700;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 0px;
     text-align: center;
 }
 .featured-bio{
-    width: 280px;
+    width: 300px;
     color: rgb(108, 108, 108);
     font-family: Poppins;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
     letter-spacing: 0px;
     text-align: left;
 }
 .card-featured{
-    width: 280px;
-    height: 120px;
+    width: 300px;
+    height: 100px;
 }
 .join-btn{
     font-size: 12px;
