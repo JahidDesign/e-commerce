@@ -455,6 +455,7 @@ text-align: left;
     
 }
 .main-span{
+    position: relative;
     width: 300px;
     height: 2px;
     background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
@@ -562,7 +563,7 @@ text-align: left;
 
 .featured-section{
     width: 300px;
-    height:400px;
+    height:450px;
     position: relative;
 }
 .sub-featured{
@@ -577,7 +578,7 @@ text-align: left;
 }
 .body-featured-two{
     width: 300px;
-    height: 160px;
+    height: 280px;
 }
 .featuredImg{
     width: 280px;
@@ -617,6 +618,7 @@ text-align: left;
     height: 35px;
 }
 .footer-section{
+    position: relative;
     width: 300px;
     height:160px;
     background: rgb(26, 16, 65);
