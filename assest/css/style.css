@@ -700,15 +700,22 @@ text-align: left;
     .nav-section{
         margin: 0px;
         padding: 0px;
-        width: 760px;
+        width: 400px;
         display: grid;
         grid-template-columns: repeat(1,1f);
     }
    .nav-section-logo{
-    width: 760px;
+    width: 400px;
+    margin-left: 2%;
+   }
+   .brand-logo{
+    width: 380px;
+    height: 80px;
+    margin: auto;
+    margin-top: 2%;
    }
    .nav-section-menu{
-    width: 7600px;
+    width: 450px;
    }
    .nav-items-ul{
     list-style: none;
@@ -717,12 +724,13 @@ text-align: left;
     
 }
 #cardId{
-    margin-left: 90%;
-    margin-top: -19%;
+    margin-top: -12%;
+    margin-left:70%;
    display: block;
 }
 #cardId2{
-    margin-top: -10%;
+    margin-top: -8%;
+    margin-left: 2%;
    display: block;
 }
 #cardSub{
@@ -737,12 +745,12 @@ text-align: left;
 
 .section-container{
    margin-top: 2px;
-   width: 760px;
-   height: 200px;
+   width: 400px;
+   
     
 }
 .main-heading{
-    width: 760px;
+    width: 400px;
     font-size: 35px;
     font-weight: 700;
     list-style: 40px;
@@ -751,7 +759,7 @@ text-align: left;
     color: rgb(58, 58, 58);
 }
 .main-section-bio{
-    width: 760px;
+    width: 350px;
     font-size: 25px;
     font-weight: 500;
     font-family: Poppins;
@@ -762,19 +770,19 @@ text-align: left;
     margin-left: 5px;
 }
 .main-image-section{
-    width: 450px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     background-image: url(../images/Circle\ design.svg);
     background-size: cover;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 #sectionId{ 
-    width: 760px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
 }
 #containWrite{
-    width: 760px;
-    width:450px;
+    width: 350px;
+    width:200px;
 }
 .custom-btn{
     font-size: 12px;
@@ -790,7 +798,7 @@ text-align: left;
 .brand-sp-section{
     position: relative;
     margin-top: 2px;
-    width: 760px;
+    width: 400px;
     height: 300px;
     
 }
@@ -800,16 +808,16 @@ text-align: left;
 }
 .main-span{
     position: relative;
-    width: 760px;
+    width: 400px;
     height: 2px;
     background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
 }
 .sponsu-section{
     position: relative;
-    width: 760px;
+    width: 380px;
     height: 300px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     
 }
 .spon-Img{
@@ -819,20 +827,20 @@ text-align: left;
 .product-section{
     margin-top: 20%;
     position: relative;
-    width: 760px;
+    width: 400px;
     height: auto;
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
 .product-sub-section{
     margin-top: 2%;
-    width: 760px;
+    width: 400px;
     display: grid;
     grid-template-columns: repeat(1,1f);
 }
 
 .product-heading{
-width: 750px;
+width: 350px;
 height: 70px;
 margin: auto;
  font-family: Poppins;
@@ -845,7 +853,7 @@ margin: auto;
 
 .product-card{
 border-radius: 4px;
- width: 370px;
+ width: 350px;
  height: 500px;
  border-radius: 5px;
 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -855,8 +863,8 @@ margin-bottom: 20px;
 .product-img{
     margin-left:20px;
     margin-top: 10px;
-    width: 350px;
-    height: 200px;
+    width: 320px;
+    height: 180px;
 }
 .product-name{
     font-family: Poppins;
@@ -901,44 +909,45 @@ text-align: left;
     color: rgb(255, 255, 255);
     border: none;
     padding:5px;
-    width: 160px;
-    height: 76px;
+    width: 140px;
+    height: 50px;
 }
 
 .featured-section{
-    width: 760px;
+    width: 400px;
     height:500px;
     position: relative;
 }
 .sub-featured{
-    width: 760px;
+    width: 400px;
     display: grid;
     grid-template-columns: repeat(1,1f);
   
 }
 .body-featured{
-    width: 760px;
-    height: 200px;
-}
-.body-featured-two{
-    width: 760px;
-    height: 300px;
-}
-.featuredImg{
     width: 400px;
     height: 200px;
 }
+.body-featured-two{
+    width: 400px;
+    height: 300px;
+}
+.featuredImg{
+    width: 360px;
+    height: 180px;
+}
 .featured-heading{
+    width: 350px;
     color: rgb(10, 8, 38);
     font-family: Poppins;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 35px;
     letter-spacing: 0px;
     text-align: center;
 }
 .featured-bio{
-    width: 760px;
+    width: 350px;
     color: rgb(108, 108, 108);
     font-family: Poppins;
     font-size: 20px;
@@ -948,8 +957,8 @@ text-align: left;
     text-align: left;
 }
 .card-featured{
-    width: 760px;
-    height: 150px;
+    width: 400px;
+    height: 180px;
 }
 .join-btn{
     font-size: 15px;
@@ -964,7 +973,7 @@ text-align: left;
 }
 .footer-section{
     position: relative;
-    width: 760px;
+    width: 400px;
     height:200px;
     background: rgb(26, 16, 65);
     justify-items: left;
@@ -973,7 +982,7 @@ text-align: left;
     height: 10px;
 }
 .footer-dive{
-    width: 760px;
+    width: 400px;
     height: 190px;
     margin-left:-5%;
 }
@@ -1019,7 +1028,7 @@ text-align: left;
     text-decoration: none;
 }
 .f-section-d{
-    width: 760px;
+    width: 400px;
     height: 150px;
 }
 .bars{
